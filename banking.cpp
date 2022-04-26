@@ -34,7 +34,7 @@ void account::create_account()
 	cout<<"\nEnter Type of The account (C/S) : ";
 	cin>>type;
 	type=toupper(type);
-	cout<<"\nEnter The Initial amount(>=500 for Saving and >=1000 for current ) : ";
+	cout<<"\nEnter The Initial amount : ";
 	cin>>deposit;
 	cout<<"\n\n\nAccount Created..";
 }
